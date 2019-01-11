@@ -2,7 +2,7 @@
 
 This is an excersize in a minimalized, *GoLang* server apps.   The objective was to deliver one (and only one) Executable file that has ZERO dependancies.  Put another way... a statically linked binary that fully contains the application.
 
-## PLATfORM
+## PLATFORM
 The platform is *GoLang*. 
 The DB is *BoltDB*.  
 https://godoc.org/github.com/boltdb/bolt
@@ -18,25 +18,25 @@ the BoltDB is an *embedded JSON store*.  I choose Bolt for these reasons.
 3. Would generate a separate BoltDB file that can be saved.
 4. Perfect Time series solution
 
-###TODO
-..*Dockerize.  Get to run in an alpne os. 
-..*ADD gRPC
-..*Create Test suite.
-..*Rearrange the Dir structure so the Source code is out of the way
+### TODO
+* Dockerize.  Get to run in an alpne os. 
+* ADD gRPC
+* Create Test suite.
+* Rearrange the Dir structure so the Source code is out of the way
 
-..*Possibly show this app running on a Ubuntu CORE OS. Distribute the App from a remote server automatically.
-..*Possibly demonstrate app on Amazon Core OS.  Just to see what it does.
+* Possibly show this app running on a Ubuntu CORE OS. Distribute the App from a remote server automatically.
+* Possibly demonstrate app on Amazon Core OS.  Just to see what it does.
 
-..*Add a Web portal. Probably vue.js ( another class ) 
+* Add a Web portal. Probably vue.js ( another class ) 
 
-..*Improve the auto setup routine
+* Improve the auto setup routine
 
 ### Alternative Systems
 There are alternative systems using much of the same logic.  
 One system listens for Messages from the CISCO call center directly thus does not read logs.
 
 
-###MISSION
+### MISSION
 This app will consume Log data from a CISCO Call center,  import them into a BOLTDB and export them in a number of other formats that are simpler to understand, including a spread sheet format.
 The app is designed to reside at the local call center NOC.  
 
