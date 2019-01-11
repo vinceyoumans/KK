@@ -19,16 +19,17 @@ the BoltDB is an *embedded JSON store*.  I choose Bolt for these reasons.
 4. Perfect Time series solution
 
 ###TODO
-Dockerize.  Get to run in an alpne os. 
-ADD gRPC
-Create Test suite.
+..*Dockerize.  Get to run in an alpne os. 
+..*ADD gRPC
+..*Create Test suite.
+..*Rearrange the Dir structure so the Source code is out of the way
 
-Possibly show this app running on a Ubuntu CORE OS. Distribute the App from a remote server automatically.
-Possibly demonstrate app on Amazon Core OS.  Just to see what it does.
+..*Possibly show this app running on a Ubuntu CORE OS. Distribute the App from a remote server automatically.
+..*Possibly demonstrate app on Amazon Core OS.  Just to see what it does.
 
-Add a Web portal 
+..*Add a Web portal. Probably vue.js ( another class ) 
 
-Improve the auto setup routine
+..*Improve the auto setup routine
 
 ### Alternative Systems
 There are alternative systems using much of the same logic.  
